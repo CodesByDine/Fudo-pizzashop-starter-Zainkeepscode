@@ -46,7 +46,7 @@
 }
 
 .imageContainer{
-    width: 45rem;
+    width: 38rem;
     position: absolute;
     top: -5rem;
     left: -5rem;
@@ -90,7 +90,7 @@
     box-shadow: var(--shadow);
     padding: 0.5rem;
     border-radius: 0.5rem;
-    position: absoulte;
+    position: absolute;
     bottom: 4rem;
     left: 19rem;
     width: max-content;
