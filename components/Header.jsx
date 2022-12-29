@@ -6,7 +6,7 @@ export default function Header () {
   return (
     <div className={css.header}>
         {/* logo side */}
-        <div className={css.log}>
+        <div className={css.logo}>
             <Image src={Logo} alt="" width={50} height={50}/>
             <span>Fudo</span>
         </div>
@@ -21,7 +21,8 @@ export default function Header () {
         {/* right side */}
         <div className={css.rightSide}>
             <div className={css.cart}>
-                <UilShoppingBag />
+                <UilShoppingBag size={35} color="2E2E2E"/>
+                <div className={css.badge}>1</div>
             </div>
         </div>
     </div>
